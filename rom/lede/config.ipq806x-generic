@@ -3161,7 +3161,7 @@ CONFIG_PACKAGE_kmod-i2c-core=m
 #
 # CONFIG_PACKAGE_kmod-hid is not set
 # CONFIG_PACKAGE_kmod-hid-generic is not set
-CONFIG_PACKAGE_kmod-input-core=m
+CONFIG_PACKAGE_kmod-input-core=y
 # CONFIG_PACKAGE_kmod-input-evdev is not set
 # CONFIG_PACKAGE_kmod-input-gpio-encoder is not set
 # CONFIG_PACKAGE_kmod-input-gpio-keys is not set
@@ -3519,7 +3519,7 @@ CONFIG_PACKAGE_kmod-mtd-rw=m
 # CONFIG_PACKAGE_kmod-random-core is not set
 CONFIG_PACKAGE_kmod-regmap-core=m
 CONFIG_PACKAGE_kmod-regmap-i2c=m
-# CONFIG_PACKAGE_kmod-rfkill is not set
+CONFIG_PACKAGE_kmod-rfkill=y
 # CONFIG_PACKAGE_kmod-rtc-ds1307 is not set
 # CONFIG_PACKAGE_kmod-rtc-ds1374 is not set
 # CONFIG_PACKAGE_kmod-rtc-ds1672 is not set
